@@ -66,7 +66,7 @@ Outline
 
     * committing is like voting, early and often
 
-    * you can clean them up later
+    * you can clean them up (squash them) later
 
     * on command line `git commit`
 
