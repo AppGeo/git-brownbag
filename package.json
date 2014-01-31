@@ -1,0 +1,23 @@
+{
+  "name": "git-brownbag",
+  "version": "0.0.0",
+  "description": "an example app for the brownbag",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AppGeo/git-brownbag.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppGeo/git-brownbag/issues"
+  },
+  "homepage": "https://github.com/AppGeo/git-brownbag",
+  "dependencies": {
+    "request": "~2.33.0",
+    "express": "~3.4.8"
+  }
+}
