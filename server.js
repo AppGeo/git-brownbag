@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-var express = require("express");
-var request = require("request");
+var express = require('express');
+var request = require('request');
 
 var app = express();
 
@@ -11,8 +11,8 @@ app.use(express.compress());
 app.use(require('./cors-middleware'));
 
 //first version
-app.get("/", function (req, res) {
-  request("http://ctbb.betal1.appgeo.com/api/providers", {
+app.get('/', function (req, res) {
+  request('http://ctbb.betal1.appgeo.com/api/providers', {
     json: true,
     qs:{
       lat: 41.18078578212309,
@@ -31,4 +31,4 @@ app.get("/", function (req, res) {
 app.use(require('./route'));
 
 app.listen(3000);
-console.log("app is listning on port 3000");
+console.log('app is listning on port 3000');
