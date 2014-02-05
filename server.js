@@ -2,12 +2,11 @@
 
 var express = require('express');
 var get = require('./get');
-
 var app = express();
 
-//put me in latter
+// put me in later
 app.use(express.compress());
-//after  you do cors-middleware.js
+// after  you do cors-middleware.js
 app.use(require('./cors-middleware'));
 
 app.get('/:name', function (req, res) {
@@ -24,8 +23,8 @@ app.get('/', function (req, res) {
   });
 });
 
-//second version
+// second version
 app.use(require('./route'));
 
 app.listen(3000);
-console.log('app is listning on port 3000');
+console.log('app is listening on port 3000');
